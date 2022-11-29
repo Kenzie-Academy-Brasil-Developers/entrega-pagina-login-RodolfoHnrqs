@@ -1,0 +1,93 @@
+.modalBoxContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+
+    width: 340px;
+    border-radius: 8px;
+    background-color: var(--color-grey-6);
+    padding: 30px;
+    gap: 24px
+}
+
+.modalForm h3{
+    color: var(--color-tertiary);
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.closeBtn{
+    position: absolute;
+    top: 24px;
+    right: 28px;
+    border-radius: 50%;
+    border: soiid 1px var(--color-grey-6);
+    background-color: var(--color-tertiary);
+    padding: 7px 9px;
+    color: var(--color-grey-6);
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeBtn:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary);
+    transition: 0.3s;
+}
+
+.modalForm p{
+    color: var(--color-grey-1);
+    font-weight: 450;
+    line-height: 120%;
+    font-size: 13px;
+}
+
+.modalForm input{
+    width: 100%;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-grey-5);
+}
+
+.modalForm input::-webkit-input-placeholder{
+    font-weight: bold;
+    color: rgba(0,0,0, 0.25)
+}
+
+.enviarBtn{
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px;
+    border: solid 2px var(--color-grey-6);
+    background-color: var(--color-tertiary);
+    color: var(--color-grey-6);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.enviarBtn:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary);
+    transition: 0.3s;
+}
+
+

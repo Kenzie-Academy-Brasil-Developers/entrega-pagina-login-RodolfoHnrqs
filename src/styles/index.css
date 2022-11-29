@@ -1,1 +1,110 @@
-/* Desenvolva seu código aqui... */
+.telaInicial{
+    width: 715px;
+    height: 410px;
+    background-color: var(--color-grey-6);
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+}
+
+.logoSite{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    line-height: 100%;
+    padding: 50px;
+}
+
+.logoSite h1{
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logoSite p{
+    color: var(--color-grey-2);
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.logoSite span{
+    color: var(--color-tertiary);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.usuarioLogin{
+    width: 55%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: solid 2px var(--color-secondary);
+    gap: 12px;
+    padding: 80px;
+}
+
+.usuarioLogin h3{
+    color: var(--color-tertiary);
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.usuarioLogin label{
+    color: var(--color-tertiary);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.usuarioLogin input{
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-grey-6);
+}
+
+.usuarioLogin ::-webkit-input-placeholder{
+    font-weight: bold;
+    color: rgba(0,0,0, 0.25)
+}
+.loginBtn{
+    border-radius: 8px;
+    border: solid 1px var(--color-secondary);
+    background-color: var(--color-tertiary);
+    color: var(--color-grey-6);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.loginBtn:hover{
+    border: solid 1px #fff;
+    transition: 0.3s;
+}
+
+.forgetBtn{
+    align-self: flex-end;
+    border: solid 1px var(--color-secondary);
+    border-radius: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bolder;
+    font-size: 9px;
+    color: var(--color-grey-6);
+    background-color: var(--color-tertiary);
+    cursor: pointer;
+}
+
+.forgetBtn:hover{
+    border: solid 1px #fff;
+    transition: 0.3s;
+}
